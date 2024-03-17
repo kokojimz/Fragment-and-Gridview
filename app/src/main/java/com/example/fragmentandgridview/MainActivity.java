@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
 
-        String[] wifeName = {"Rose", "Lotus", "Lily", "Jasmine",
+        String[] wifeName = {"Aqua", "Lotus", "Lily", "Jasmine",
                 "Tulip", "Orchid", "Lavender", "RoseMarry", "Sunflower", "Carnation"};
         int[] wifeImages = {R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d, R.drawable.e, R.drawable.f, R.drawable.g,
                 R.drawable.h, R.drawable.i, R.drawable.j};
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             return true;
         });
     }
+
 
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class GridAdapter extends BaseAdapter {
 
@@ -52,6 +53,14 @@ public class GridAdapter extends BaseAdapter {
 
         imageView.setImageResource(image[position]);
         textView.setText(wifeName[position]);
+
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Menampilkan pesan Toast saat item di klik
+                Toast.makeText(context, "You Clicked on " + wifeName[position], Toast.LENGTH_SHORT).show();
+            }
+        });
 
         return convertView;
     }

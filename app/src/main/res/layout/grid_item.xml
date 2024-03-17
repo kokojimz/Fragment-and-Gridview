@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/item_name"
-        android:text="Rose"
+        android:text="Aqua"
         android:textSize="26sp"
         android:layout_marginTop="6dp" />
 
