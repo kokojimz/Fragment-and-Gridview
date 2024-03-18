@@ -7,7 +7,9 @@ This project is a simple application designed to learn about the usage of fragme
 
 ## Preview
 
-https://github.com/kokojimz/Fragment-and-Gridview/assets/93468154/54877bec-af0a-4530-8284-0a91adbcc727
+
+
+https://github.com/kokojimz/Fragment-and-Gridview/assets/93468154/1c71dbe9-6a80-4164-bf1a-fd86eafc1303
 
 
   
