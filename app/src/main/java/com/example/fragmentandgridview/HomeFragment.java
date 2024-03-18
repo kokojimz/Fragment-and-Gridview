@@ -62,8 +62,8 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        String[] wifeName = {"Rose", "Lotus", "Lily", "Jasmine",
-                "Tulip", "Orchid", "Lavender", "RoseMarry", "Sunflower", "Carnation"};
+        String[] wifeName = {"Aqua", "Tamaki", "Mem-cho", "Emilia",
+                "Asuna", "Chizuru", "Chitoge", "Rias", "Zero-Two", "Raphtalia"};
         int[] wifeImages = {R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d, R.drawable.e, R.drawable.f, R.drawable.g,
                 R.drawable.h, R.drawable.i, R.drawable.j};
 
